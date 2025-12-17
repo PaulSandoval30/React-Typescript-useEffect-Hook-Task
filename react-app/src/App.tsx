@@ -1,12 +1,11 @@
-import { useState } from 'react'
-
 import './App.css'
 
-function App() {
+import CounterApp from './components/CounterApp.tsx'
 
+function App() {
   return (
     <>
-    
+      <CounterApp />
     </>
   )
 }
